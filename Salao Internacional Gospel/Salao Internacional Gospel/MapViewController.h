@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  MapViewController.h
 //  Salao Internacional Gospel
 //
 //  Created by TopTier on 11/10/11.
@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 
 
-@interface FirstViewController : UIViewController {
-
+@interface MapViewController : UIViewController {
+    
 }
 
 @end

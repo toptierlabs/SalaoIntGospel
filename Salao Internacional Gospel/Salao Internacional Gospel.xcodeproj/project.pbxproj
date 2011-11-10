@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB9DC1E2146C49AB002E775B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9DC1E1146C49AB002E775B /* UIKit.framework */; };
+		AB9DC1E4146C49AB002E775B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9DC1E3146C49AB002E775B /* Foundation.framework */; };
+		AB9DC1E6146C49AB002E775B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9DC1E5146C49AB002E775B /* CoreGraphics.framework */; };
+		AB9DC1EC146C49AB002E775B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB9DC1EA146C49AB002E775B /* InfoPlist.strings */; };
+		AB9DC1EF146C49AB002E775B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9DC1EE146C49AB002E775B /* main.m */; };
+		AB9DC1F2146C49AB002E775B /* Salao_Internacional_GospelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9DC1F1146C49AB002E775B /* Salao_Internacional_GospelAppDelegate.m */; };
+		AB9DC1F5146C49AB002E775B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB9DC1F3146C49AB002E775B /* MainWindow.xib */; };
+		AB9DC1F8146C49AB002E775B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9DC1F7146C49AB002E775B /* FirstViewController.m */; };
+		AB9DC1FB146C49AB002E775B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9DC1FA146C49AB002E775B /* SecondViewController.m */; };
+		AB9DC1FE146C49AB002E775B /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB9DC1FC146C49AB002E775B /* FirstView.xib */; };
+		AB9DC201146C49AB002E775B /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB9DC1FF146C49AB002E775B /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB9DC1DD146C49AB002E775B /* Salao Internacional Gospel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salao Internacional Gospel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9DC1E1146C49AB002E775B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB9DC1E3146C49AB002E775B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB9DC1E5146C49AB002E775B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB9DC1E9146C49AB002E775B /* Salao Internacional Gospel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Salao Internacional Gospel-Info.plist"; sourceTree = "<group>"; };
+		AB9DC1EB146C49AB002E775B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB9DC1ED146C49AB002E775B /* Salao Internacional Gospel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Salao Internacional Gospel-Prefix.pch"; sourceTree = "<group>"; };
+		AB9DC1EE146C49AB002E775B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB9DC1F0146C49AB002E775B /* Salao_Internacional_GospelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Salao_Internacional_GospelAppDelegate.h; sourceTree = "<group>"; };
+		AB9DC1F1146C49AB002E775B /* Salao_Internacional_GospelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Salao_Internacional_GospelAppDelegate.m; sourceTree = "<group>"; };
+		AB9DC1F4146C49AB002E775B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AB9DC1F6146C49AB002E775B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		AB9DC1F7146C49AB002E775B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		AB9DC1F9146C49AB002E775B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AB9DC1FA146C49AB002E775B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		AB9DC1FD146C49AB002E775B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		AB9DC200146C49AB002E775B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB9DC1DA146C49AB002E775B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9DC1E2146C49AB002E775B /* UIKit.framework in Frameworks */,
+				AB9DC1E4146C49AB002E775B /* Foundation.framework in Frameworks */,
+				AB9DC1E6146C49AB002E775B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB9DC1D2146C49AB002E775B = {
+			isa = PBXGroup;
+			children = (
+				AB9DC1E7146C49AB002E775B /* Salao Internacional Gospel */,
+				AB9DC1E0146C49AB002E775B /* Frameworks */,
+				AB9DC1DE146C49AB002E775B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB9DC1DE146C49AB002E775B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB9DC1DD146C49AB002E775B /* Salao Internacional Gospel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB9DC1E0146C49AB002E775B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB9DC1E1146C49AB002E775B /* UIKit.framework */,
+				AB9DC1E3146C49AB002E775B /* Foundation.framework */,
+				AB9DC1E5146C49AB002E775B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB9DC1E7146C49AB002E775B /* Salao Internacional Gospel */ = {
+			isa = PBXGroup;
+			children = (
+				AB9DC1F0146C49AB002E775B /* Salao_Internacional_GospelAppDelegate.h */,
+				AB9DC1F1146C49AB002E775B /* Salao_Internacional_GospelAppDelegate.m */,
+				AB9DC1F3146C49AB002E775B /* MainWindow.xib */,
+				AB9DC1F6146C49AB002E775B /* FirstViewController.h */,
+				AB9DC1F7146C49AB002E775B /* FirstViewController.m */,
+				AB9DC1F9146C49AB002E775B /* SecondViewController.h */,
+				AB9DC1FA146C49AB002E775B /* SecondViewController.m */,
+				AB9DC1FC146C49AB002E775B /* FirstView.xib */,
+				AB9DC1FF146C49AB002E775B /* SecondView.xib */,
+				AB9DC1E8146C49AB002E775B /* Supporting Files */,
+			);
+			path = "Salao Internacional Gospel";
+			sourceTree = "<group>";
+		};
+		AB9DC1E8146C49AB002E775B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB9DC1E9146C49AB002E775B /* Salao Internacional Gospel-Info.plist */,
+				AB9DC1EA146C49AB002E775B /* InfoPlist.strings */,
+				AB9DC1ED146C49AB002E775B /* Salao Internacional Gospel-Prefix.pch */,
+				AB9DC1EE146C49AB002E775B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB9DC1DC146C49AB002E775B /* Salao Internacional Gospel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB9DC204146C49AB002E775B /* Build configuration list for PBXNativeTarget "Salao Internacional Gospel" */;
+			buildPhases = (
+				AB9DC1D9146C49AB002E775B /* Sources */,
+				AB9DC1DA146C49AB002E775B /* Frameworks */,
+				AB9DC1DB146C49AB002E775B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Salao Internacional Gospel";
+			productName = "Salao Internacional Gospel";
+			productReference = AB9DC1DD146C49AB002E775B /* Salao Internacional Gospel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB9DC1D4146C49AB002E775B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AB9DC1D7146C49AB002E775B /* Build configuration list for PBXProject "Salao Internacional Gospel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB9DC1D2146C49AB002E775B;
+			productRefGroup = AB9DC1DE146C49AB002E775B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB9DC1DC146C49AB002E775B /* Salao Internacional Gospel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB9DC1DB146C49AB002E775B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9DC1EC146C49AB002E775B /* InfoPlist.strings in Resources */,
+				AB9DC1F5146C49AB002E775B /* MainWindow.xib in Resources */,
+				AB9DC1FE146C49AB002E775B /* FirstView.xib in Resources */,
+				AB9DC201146C49AB002E775B /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB9DC1D9146C49AB002E775B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9DC1EF146C49AB002E775B /* main.m in Sources */,
+				AB9DC1F2146C49AB002E775B /* Salao_Internacional_GospelAppDelegate.m in Sources */,
+				AB9DC1F8146C49AB002E775B /* FirstViewController.m in Sources */,
+				AB9DC1FB146C49AB002E775B /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB9DC1EA146C49AB002E775B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB9DC1EB146C49AB002E775B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB9DC1F3146C49AB002E775B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB9DC1F4146C49AB002E775B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AB9DC1FC146C49AB002E775B /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB9DC1FD146C49AB002E775B /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		AB9DC1FF146C49AB002E775B /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB9DC200146C49AB002E775B /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB9DC202146C49AB002E775B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB9DC203146C49AB002E775B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AB9DC205146C49AB002E775B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Salao Internacional Gospel/Salao Internacional Gospel-Prefix.pch";
+				INFOPLIST_FILE = "Salao Internacional Gospel/Salao Internacional Gospel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB9DC206146C49AB002E775B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Salao Internacional Gospel/Salao Internacional Gospel-Prefix.pch";
+				INFOPLIST_FILE = "Salao Internacional Gospel/Salao Internacional Gospel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB9DC1D7146C49AB002E775B /* Build configuration list for PBXProject "Salao Internacional Gospel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9DC202146C49AB002E775B /* Debug */,
+				AB9DC203146C49AB002E775B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB9DC204146C49AB002E775B /* Build configuration list for PBXNativeTarget "Salao Internacional Gospel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9DC205146C49AB002E775B /* Debug */,
+				AB9DC206146C49AB002E775B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB9DC1D4146C49AB002E775B /* Project object */;
+}
